@@ -127,7 +127,7 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
-		assembly = "Assembly"
-		programmer_hash[:dennis_ritchie][:languages].unshift(assembly)
+
+		programmer_hash[:dennis_ritchie][:languages].unshift!("Assembly")
 		programmer_hash
 end
